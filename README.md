@@ -3,11 +3,11 @@ kaskus-embed-jquery
 
 Kaskus Single Post Embed jQuery Plugin
 
-#disklemer
+##disklemer
 
 Karena ini merupakan Versi Betty beberapa Bug masih ditemukan silahkan report issue jika terjadi BUG atau kendala.
 
-#bagaimana cara pakainya?
+##bagaimana cara pakainya?
 
 gampang sisipkan jquery library dan plugins nya
 	
@@ -24,7 +24,7 @@ kemudian untuk plugin gunakan script seperti berikut.
 		$('iframe').kaskusEmbed();
 	</script>
 
-#options
+##options
 
 	serverUrl : letak assets anda seperti style css dsb //
 
@@ -34,7 +34,7 @@ contoh
 		$('iframe').kaskusEmbed({serverUrl: 'http://pedox.github.io/kaskus-embed-jquery/assets/'});
 	</script>
 
-#beberapa kondisi dan keadaan
+##beberapa kondisi dan keadaan
 
 Untuk menggunakan Plugin ini setidaknya browser melakukan Cache ke server kaskus dengan iframe.
 Karena kaskus tidak mengizinkan Hotlink Image server mereka. Setelah iframe selesai di load secara sukses, maka badge akan
@@ -43,6 +43,6 @@ memproses untuk dirender dengan image cache yang ada dari iframe tsb.
 ga ngerti ya? kasian.
 
 
-#kontribusi 
+##kontribusi 
 
 boleh tapi jangan galak galak yah...
