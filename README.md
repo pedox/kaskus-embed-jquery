@@ -42,6 +42,7 @@ memproses untuk dirender dengan image cache yang ada dari iframe tsb.
 
 ga ngerti ya? kasian.
 
+Contohnya ? [Contoh kaskus embed](http://jsbin.com/oqosex/1)
 
 ##kontribusi 
 
