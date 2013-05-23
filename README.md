@@ -15,9 +15,10 @@ gampang sisipkan jquery library dan plugins nya
 	<script type="text/javascript" src="js/kaskus-embed-jquery.js"></script>
 
 Lalu cari link single post dari kaskus dan sisipkan seperti berikut
-	
-	<iframe src="http://www.kaskus.co.id/show_post/519ad89c532acfbb7b00000b/1/bocoran-kostum-baru-mu-musim-depan" data-embed="kaskus"></iframe>
 
+	<iframe class="kaskus-embed" data-thread="5198471d0a75b47606000003/4377/"></iframe>
+
+id `5198471d0a75b47606000003/4377/` diambil dari `http://www.kaskus.co.id/show_post/[id_nya]`
 kemudian untuk plugin gunakan script seperti berikut.
 
 	<script type="text/javascript">
@@ -26,12 +27,13 @@ kemudian untuk plugin gunakan script seperti berikut.
 
 ##options
 
-	serverUrl : letak assets anda seperti style css dsb //
+	serverOrigin : letak server origin frame anda untuk melakukan request iframe
+	serverAssets : letak assets frame anda untuk membaca thread tsb
 
 contoh
 	
 	<script type="text/javascript">
-		$('iframe').kaskusEmbed({serverUrl: 'http://pedox.github.io/kaskus-embed-jquery/assets/'});
+		$('iframe').kaskusEmbed({serverOrigin: 'http://pedox.github.io'});
 	</script>
 
 ##beberapa kondisi dan keadaan
@@ -41,8 +43,6 @@ Karena kaskus tidak mengizinkan Hotlink Image server mereka. Setelah iframe sele
 memproses untuk dirender dengan image cache yang ada dari iframe tsb.
 
 ga ngerti ya? kasian.
-
-Contohnya ? [Contoh kaskus embed](http://jsbin.com/oqosex/1)
 
 ##kontribusi 
 

@@ -1,0 +1,129 @@
+	.badge-kaskus-very-outer >h1{
+		text-align: center;
+		font-size: 1.3em;
+		color: #333;
+	}
+	.kaskus-card-outer p{
+		margin: 0px;
+	}
+
+	.kaskus-card-outer{
+		margin: 10px;
+		box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.2);
+		display: none;
+	}
+	.kaskus-card-outer a{
+		color: #0976BC;
+	}
+	.kaskus-card-outer header{
+		background: #f5f5f5;
+		position: relative;
+	}
+	.kaskus-card-outer header h1{
+		width: 4.5em;
+		margin: 0;
+	}
+	.kaskus-card-outer header h1 img{
+		width: 100%;
+		margin: 10px;
+	}
+	.kaskus-card-outer header >a{
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		background: #FCA21B;
+		bottom: 5px;
+		padding: 10px 20px;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		-webkit-transition: all 0.5s;
+	}
+	.kaskus-card-outer header >a:hover{
+		background: #E49217;
+	}
+	.kaskus-card-outer .stripline{
+		background: #1484CE;
+		color: #fff;
+		font-weight: bold;
+		padding: 3px 10px;
+		font-size: 13px;
+		position: relative;
+	}
+	.kaskus-card-outer .stripline time{
+		position: absolute;
+		right: 10px;
+		top: 5px;
+		font-size: 10px;
+	}
+	.kaskus-card-outer .vcard{
+		overflow: hidden;
+		background: #F2F7FA;
+		border-bottom: 1px solid #D9DFE2;
+		padding: 10px;
+	}
+	.kaskus-card-outer .vcard figure{
+		float: left;
+		margin: 0;
+		width: 6em;
+	}
+	.kaskus-card-outer .vcard figure img{
+		width: 100%;
+	}
+	.kaskus-card-outer .vcard .detail{
+		float: left;
+		margin-left: 10px;
+		font-size: 0.8em;
+		color: #333;
+	}
+	.kaskus-card-outer .vcard .detail a{
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.kaskus-card-outer .vcard .detail p{
+		margin-bottom: 3px;
+	}
+	.kaskus-card-outer .vcard .detail .static{
+		font-size: 0.8em;
+		float: left;
+		border-top: 1px solid #D9DFE2;
+		margin-top: 0px;
+		padding-top: 5px;
+	}
+	.kaskus-card-outer .vcard .detail .static span{
+		display: inline-block;
+		width: 35px;
+	}
+	.kaskus-card-outer .vcard .cendol{
+		float: right;
+	}
+	.kaskus-card-outer .vcard .cendol ul{
+		margin: 0px;
+	}
+	.kaskus-card-outer .vcard .cendol ul.bata li
+	{
+		background: #E63817;
+	}
+	.kaskus-card-outer .vcard .cendol ul.cendol-gan li
+	{
+		background: #A3E617;
+	}
+	.kaskus-card-outer .vcard .cendol ul li{
+		display: block;
+		width: 8px;
+		height: 10px;
+		float: left;
+		margin: 0px 2px;
+	}
+	.kaskus-card-outer .content{
+		padding: 20px;
+		font-size: 13px;
+		background: #fff;
+	}
+	.kaskus-card-outer .content img{
+		max-width: 100%;
+	}
+	.kaskus-card-outer #post_title a{
+		color: #fff;
+		text-decoration: none;
+	}

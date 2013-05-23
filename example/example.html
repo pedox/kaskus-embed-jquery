@@ -17,13 +17,15 @@
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ab veniam aut consequatur iste? Et, quidem distinctio quam officia amet! Esse ullam placeat cum enim inventore alias saepe soluta maxime.
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, aliquam voluptatem inventore explicabo fuga provident asperiores id assumenda doloremque sunt ullam voluptate necessitatibus odio nobis maiores nulla animi! Officia, nisi.
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quia, soluta praesentium est laboriosam ut itaque voluptatem explicabo tempore quasi asperiores dicta dignissimos mollitia excepturi iure delectus facere ea corporis.
-			<iframe src="http://www.kaskus.co.id/show_post/519ad89c532acfbb7b00000b/1/bocoran-kostum-baru-mu-musim-depan" data-embed="kaskus"></iframe>
+			<iframe class="frame kaskus-embed" data-thread="5198471d0a75b47606000003/4377/"></iframe>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, ad, esse, facere hic quo odit illo doloremque labore soluta beatae dolorum dolore pariatur id officia molestias recusandae iure. Veritatis, sequi!
 		</div>
 	</body>
 	<script type="text/javascript" src="../lib/jquery.min.js"></script>
 	<script type="text/javascript" src="../src/kaskus-embed-jquery.js"></script>
 	<script type="text/javascript">
-		$('iframe').kaskusEmbed();
+		$(window).load(function(){
+			$("iframe").kaskusEmbed();
+		});
 	</script>
 </html>
