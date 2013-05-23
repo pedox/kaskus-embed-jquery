@@ -44,6 +44,18 @@ memproses untuk dirender dengan image cache yang ada dari iframe tsb.
 
 ga ngerti ya? kasian.
 
+[Live example](http://jsbin.com/ufudid/1)
+
+##Satpam (Security)
+Untuk Frame anda bisa buat pengaman dengan memberi sedikit value pada variable di file yang berada di folder /frame
+
+	//if you want more security you can do it here
+	var activeWhite = false;				//Active protection change to TRUE
+	var allowed_domain = 'http://localhost' //Allowed domain to request frame
+
+Jadi tidak sembarang domain bisa mengakses frame anda jika anda ingin  men-host file di server anda sendiri
+
+
 ##kontribusi 
 
 boleh tapi jangan galak galak yah...
